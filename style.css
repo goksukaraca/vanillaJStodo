@@ -1,0 +1,46 @@
+html {
+    height: 100vh;
+    min-width: 600px;
+    background-size: auto;
+    background-color: #ffffff;
+}
+
+.list-body {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+form {
+    background-color: #dd0d6e;
+    padding: 10px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    color: #000000;
+    flex-grow: 1;
+}
+
+.todo {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 10px 25px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+    flex-grow: 1;
+}
+
+.todo-list-item {
+    transition: all 0.3s ease-out;
+}
